@@ -2467,11 +2467,11 @@ p.testimonial-text {
     position: relative;
     display: inline-block;
     height: auto;
-    width: 53.5%;
+    width: 56.2%;
     cursor: pointer;
 }
 .home-square-menu-row > .home-square-menu-item:first-child {
-    width: 46.5%;
+    width: 43.8%;
 }
 .home-square-menu-item:hover > .home-square-menu-hover-box {
     opacity: 1;
@@ -2568,8 +2568,12 @@ a.home-titles-hyperlink {
 
 @media (min-width: 1025px) {
     .home-square-menu {
+        position: relative;
         padding-top: 150px;
         padding-left: 10px;
+        display: inline-block;
+        left: 50%;
+        transform: translate(-50%, 0);
     }
     .home-square-menu-row.first {
         height: 257px;
