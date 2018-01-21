@@ -2600,6 +2600,7 @@ a.home-titles-hyperlink {
     
     #slider .flexslider .slides li img {
         max-height: 100vh;
+        max-width: 100%;
         width: auto !important;
         margin-left: auto;
         margin-right: auto;

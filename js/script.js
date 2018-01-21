@@ -76,6 +76,7 @@ $(document).ready(function($) {
 
 		SliderPost.flexslider({
 			animation: "fade",
+            slideshow: false,
 			slideshowSpeed: 4000,
             controlNav: true,
             directionNav: true
