@@ -710,7 +710,7 @@ a.load-more-button:hover {
     position: absolute;
     width: 100%;
     top: 20%;
-    text-align: center;
+    text-align: left;
 }
 
 #slider .flexcaption.center {
@@ -776,10 +776,6 @@ a.load-more-button:hover {
 #slider .flexslider {
     width: 100%;
     margin: 0 !important;
-}
-
-#slider .flexslider .flex-direction-nav {
-    display: none;
 }
 
 #slider .flexslider .slides {
@@ -912,6 +908,10 @@ a.load-more-button:hover {
     overflow: hidden;
     max-height: 80px;
     min-height: 80px;
+}
+
+.post-head p {
+    font-weight: 400;
 }
 
 .hover-blog .hover-content a.link-tag {
