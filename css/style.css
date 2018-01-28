@@ -477,7 +477,7 @@ ul li {
     color: #fff;
     font-size: 14px;
     font-family: 'Roboto Slab', serif;
-    font-weight: 100;
+    font-weight: 300;
     margin: 0;
     -webkit-backface-visibility: hidden;
 }
@@ -879,6 +879,7 @@ a.load-more-button:hover {
 
 .hover-blog .hover-content h2 {
     color: #606060;
+    font-weight: 800;
 }
 
 .hover-blog .hover-content .post-head {
@@ -903,11 +904,10 @@ a.load-more-button:hover {
 
 .hover-blog .hover-content > p {
     position: relative;
-    padding-bottom: 15px;
+    padding-top: 25px;
     margin-bottom: 15px;
     overflow: hidden;
     max-height: 80px;
-    min-height: 80px;
 }
 
 .post-head p {
@@ -979,7 +979,7 @@ a.load-more-button:hover {
     color: #606060;
     font-size: 14px;
     font-family: 'Roboto Slab', serif;
-    font-weight: 100;
+    font-weight: 300;
     text-decoration: none;
     -webkit-backface-visibility: hidden;
     transition: all 0.2s ease-in-out;
@@ -2282,7 +2282,7 @@ p.testimonial-text {
     color: #808080;
     font-size: 14px;
     font-family: 'Roboto Slab', serif;
-    font-weight: 100;
+    font-weight: 300;
     display: block;
 }
 
@@ -2356,6 +2356,7 @@ p.testimonial-text {
 
 .contact-box > p span {
     display: block;
+    font-weight: 300;
 }
 
 .contact-page h4 {
@@ -2407,6 +2408,7 @@ p.testimonial-text {
     font-size: 18px;
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
+    letter-spacing: 1px;
     text-transform: uppercase;
     border: none;
     background: #a5a5a5;
@@ -2569,11 +2571,10 @@ a.home-titles-hyperlink {
 @media (min-width: 1025px) {
     .home-square-menu {
         position: relative;
+        display: inline-block;
         padding-top: 150px;
         padding-left: 10px;
-        display: inline-block;
-        left: 50%;
-        transform: translate(-50%, 0);
+        left: 100px;
     }
     .home-square-menu-row.first {
         height: 257px;
