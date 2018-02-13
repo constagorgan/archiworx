@@ -375,6 +375,23 @@ $(document).ready(function($) {
 			navbarVertical.slideUp(300).removeClass('active');
 		}
 	});
+  
+  	/* ---------------------------------------------------------------------- */
+	/*	homepage links
+	/* ---------------------------------------------------------------------- */
+    var homepageSquareMenuClick = $('.home-square-menu'),
+        homepageSquareMenuHyperlink;
+    
+    homepageSquareMenuClick.on('click', function(e){
+      console.log(event.target)
+        if (!$(e.target).hasClass('home-titles')) {
+          homepageSquareMenuHyperlink = $(event.target).children('a').attr('href');
+		  window.location = homepageSquareMenuHyperlink;
+        } else if ($(e.target).hasClass('home-titles')) {
+          homepageSquareMenuHyperlink = $(event.target).siblings('a').attr('href');
+          window.location = homepageSquareMenuHyperlink;
+        }
+	});
 
 	/* ---------------------------------------------------------------------- */
 	/*	Contact Form
